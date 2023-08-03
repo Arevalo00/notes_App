@@ -1,6 +1,6 @@
 # Note Taker Starter Code
 
-When starting this project I frist started by 
+When starting this project I frist started by installing the dependenices in the package.json, after that I looked into the acceptance criteria. I wanted to make sure I had a good plan on how I wanted to start my project. I then moved to makeing the routs folder, where I made the index and notes js. That way I could start making the routs and exports, I would need for my two html pages. Once that was completed I then moved to making 
 
 
 
