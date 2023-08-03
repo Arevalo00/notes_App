@@ -1,6 +1,6 @@
 # Note Taker Starter Code
 
-When starting this project I frist started by installing the dependenices in the package.json, after that I looked into the acceptance criteria. I wanted to make sure I had a good plan on how I wanted to start my project. I then moved to makeing the routs folder, where I made the index and notes js. That way I could start making the routs and exports, I would need for my two html pages. Once that was completed I then moved to making 
+When starting this project I frist started by installing the dependenices in the package.json, after that I looked into the acceptance criteria. I wanted to make sure I had a good plan on how I wanted to start my project. I then moved to makeing the routs folder, where I made the index and notes js. That way I could start making the routs and exports, I would need for my two html pages. Once that was completed I then moved to making the server.js makeing sure it would be able to deploy from heroku. Then I looked into how to delete things from my page for the 10 extra credit points, I also started putting comments on my code so that it will be easy to know what each part is doing. 
 
 
 
@@ -37,3 +37,6 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+
+## Links 
+
