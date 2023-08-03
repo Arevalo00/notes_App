@@ -21,7 +21,11 @@ app.get('/', (req, res)=> (
 ));
 
 app.post('/', (req,res)=> 
-res.sendFile(path.join(__dirname, ''))
-)
+res.sendFile(path.join(__dirname, '/public/notes.html'))
+);
+
+app.listen(PROT, ()=> 
+console.log(`http:localhost:${PORT}`)
+);
 
 
