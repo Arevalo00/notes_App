@@ -1,0 +1,27 @@
+const express = require('express');
+const path = require('path');
+const api = require('./Routs/Index');
+
+const PORT = process.env.port || 3001;
+
+const app = express();
+
+// middleware 
+
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
+app.use('/api', api); 
+
+app.use(express.static('public')); 
+
+// get routes index.html
+
+app.get('/', (req, res)=> (
+    res.sendFile(path.join(__dirname, '/public/index.html'))
+));
+
+app.post('/', (req,res)=> 
+res.sendFile(path.join(__dirname, ''))
+)
+
+
